@@ -2,6 +2,15 @@ import streamlit as st
 
 
 st.set_page_config(page_title="🌀 Guess the right day! - by FP")
+import streamlit as st
+
+# URL of the image on GitHub
+image_url = "https://raw.githubusercontent.com/frpeddis/Week-Whiz/70c8739a6cc23b1f494c0453119bd2ac348c705d/Image%2023-08-23%20at%2017.23.jpeg"
+
+# Display the image using st.image
+st.image(image_url, use_container_width=True)
+
+
 st.title("Welcome!!!  :sunglasses:")
 #image_url = "https://raw.githubusercontent.com/frpeddis/Week-Whiz/927ecd1e0f19513b2e0887675fecfe4da17577a7/Image%2023-08-23%20at%2017.09.jpeg"
 
