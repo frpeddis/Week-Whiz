@@ -237,7 +237,7 @@ if check_button and not invalid_date:
         #st.title("Please verify, but according to ChatGPT that day...")
         #st.write(news_summary)
 
- if st.button("In that period..."):
+        if st.button("In that period..."):
             news_summary = generate_news(selected_date)
             st.header("Please verify, but according to ChatGPT in that period... ")
             st.write(news_summary)
