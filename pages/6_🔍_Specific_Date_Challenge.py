@@ -164,15 +164,14 @@ if check_button and not invalid_date:
             #st.write(":point_right: Magic Sum: ", calculated_string, " = ", f"<span style='font-size:18px; font-weight:bold;'>{subtotal}</span>", unsafe_allow_html=True)
             #st.write("Magic Sum: ", calculated_string, " = ", subtotal)
             
-            
             # Step 2: Take the last 2 digits of the year (continued)
             st.write(year_last_2_digits, ": Last 2 digits of the year YY")
         
             # Step 3: Divide the year number by 4 and add it (continued)
-            st.write(year_divided_by_4, ": YY divided by 4 (only integer part!)")
+            st.write(year_divided_by_4, ": Last 2 digit of the year YY/4 (only integer part!)")
             
             # Step 4: Add the "Century Correction" (continued)
-            st.write(century_correction_value, ": Century Correction for ", century, " (little table below)")
+            st.write(century_correction_value, ": Century Correction for century ", century, " (little table below)")
           
             # Step 5: Add the "Month Coefficient" (continued)
             st.write(month_coefficient, ": Month Coefficient for ", month, " (little table below)")
@@ -182,7 +181,12 @@ if check_button and not invalid_date:
             
             # Step 7: Divide the subtotal by 7 and find the remainder (continued)
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
-            st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
+            st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
+
+
+
+
+
             
             # Display Correspondence Table
             #st.write("Correspondence between Remainders and Days of the Week Table:")
