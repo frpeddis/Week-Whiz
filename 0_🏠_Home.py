@@ -2,11 +2,7 @@
 
 import streamlit as st
 
-# Define the URL of the image on GitHub
-image_url = "https://raw.githubusercontent.com/frpeddis/Week-Whiz/6231a03f8af9cbe9bdae1d1bab0136fe4af64735/Image%2023-08-23%20at%2017.23.jpeg"
 
-# Display the image using Streamlit
-st.image(image_url, use_column_width=True)
 
 st.set_page_config(page_title="🌀 Guess the weekday! - by FP")
 
