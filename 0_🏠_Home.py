@@ -7,7 +7,7 @@ st.header("🗓️ Guess the **day of the week** for any **date**!")
 st.write("You just need simple basic math and a little bit of memory... ") 
 st.write("Let's give it a try!")
 
-st.header(":point_left: Your Calendar Challenge from the sidebar up on the left")
+st.header("↖️ Your Calendar Challenge from the sidebar up on the left")
 
  
 st.sidebar.success("Select your challenge ")
