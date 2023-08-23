@@ -80,13 +80,13 @@ check_button = st.button("Check")
 if check_button and not invalid_date:
     # Compare the user-selected day of the week with the actual day of the week
     if day_of_week == expected_day_of_week:
-        st.success(day_of_week + " OK! :thumbsup:")
+        st.success(day_of_week + " is OK! :thumbsup:")
         st.balloons()
         #news_summary = generate_news(selected_date)
         #st.title("Please verify, but according to ChatGPT that day...")
         #st.write(news_summary)
     else:
-        st.error(day_of_week + " Sorry for that!!!")
+        st.error(day_of_week + " ...sorry for that!!!")
         st.snow()
         #news_summary = generate_news(selected_date)
         #st.title("Please verify, but according to ChatGPT that day...")
