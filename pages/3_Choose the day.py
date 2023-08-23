@@ -93,7 +93,7 @@ else:
     st.markdown("<font color='red'>Invalid date</font>", unsafe_allow_html=True)
 
 # Prompt the user to select the expected day of the week from a dropdown list
-expected_day_of_week = st.selectbox("Select the expected day of the week:", list(calendar.day_name))
+expected_day_of_week = st.selectbox("Expected day of the week?:", list(calendar.day_name))
 
 # Add a "Check" button to confirm the selection
 check_button = st.button("Check")
