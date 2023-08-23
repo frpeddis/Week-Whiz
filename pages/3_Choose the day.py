@@ -38,7 +38,7 @@ st.markdown(
 )
 
 # Streamlit app title
-st.title("What day is it? - Please select :sunglasses:")
+st.title("What day is it? -  Please select :sunglasses:")
 show_images = st.checkbox("Show me how to calculate !")
 
 if show_images:
