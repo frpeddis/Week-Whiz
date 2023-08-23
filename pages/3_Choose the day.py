@@ -96,8 +96,7 @@ if check_button and not invalid_date:
             value = selected_date.strftime('%d-%b-%Y')
 
             description2 = "Focus on "
-            st.markdown(f"{description2} {value}")
-           
+            st.markdown(f"{description2} {value}")           
 
             # Step 2: Take the last 2 digits of the year
             year_last_2_digits = selected_date.year % 100
