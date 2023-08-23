@@ -32,7 +32,7 @@ st.markdown(
 )
 
 # Streamlit app title
-st.title("What day was it? - Please select :sunglasses:")
+st.title("What day is it? - Please select :sunglasses:")
 
 # Use st.columns to create a layout with three columns
 col1, col2, col3 = st.columns(3)
@@ -93,8 +93,10 @@ if check_button and not invalid_date:
         #selected_date = st.session_state.random_date
         
         if selected_date:
-            #description2 = "Focus on "
-            #st.markdown(f"{description2} {value}")
+            value = selected_date.strftime('%d-%b-%Y')
+
+            description2 = "Focus on "
+            st.markdown(f"{description2} {value}")
            
 
             # Step 2: Take the last 2 digits of the year
