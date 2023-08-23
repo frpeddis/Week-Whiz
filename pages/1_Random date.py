@@ -30,7 +30,7 @@ def generate_news(selected_date):
 
 
 # Streamlit app title
-st.title(":sunglasses: What day is it? Random date")
+st.title(":sunglasses: What day is it? Random date 🎲")
 show_images = st.checkbox("Show me how to calculate !")
 
 if show_images:
