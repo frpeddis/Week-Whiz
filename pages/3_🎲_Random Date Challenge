@@ -10,6 +10,7 @@ from PIL import Image
 from io import BytesIO
 import pandas as pd
 
+
 # Checkbox to toggle image display
 
 openai.api_key = st.secrets["API_KEY"]
