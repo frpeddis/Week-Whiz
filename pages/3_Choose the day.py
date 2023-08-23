@@ -2,6 +2,7 @@ import calendar
 import streamlit as st
 from datetime import datetime
 import openai
+import pandas as pd
 
 openai.api_key = st.secrets["API_KEY"]
 
