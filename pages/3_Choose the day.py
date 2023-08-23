@@ -115,7 +115,7 @@ if check_button and not invalid_date:
         #selected_date = st.session_state.random_date
         
         if selected_date:
-            value = selected_date.strftime('%d-%b-%Y')
+            value = "**" + selected_date.strftime('%d-%b-%Y') + "**"
 
             description2 = "Focus on "
             st.markdown(f"{description2} {value}")           
