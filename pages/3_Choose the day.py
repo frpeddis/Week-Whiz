@@ -89,12 +89,12 @@ if check_button and not invalid_date:
     else:
         st.error(day_of_week + " ...sorry for that!!!")
         st.snow()
-        value = "**" + selected_date + "**"
+        #value = "**" + selected_date + "**"
         #selected_date = st.session_state.random_date
         
         if selected_date:
-            description2 = "Focus on "
-            st.markdown(f"{description2} {value}")
+            #description2 = "Focus on "
+            #st.markdown(f"{description2} {value}")
            
 
             # Step 2: Take the last 2 digits of the year
