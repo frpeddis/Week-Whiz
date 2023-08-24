@@ -11,7 +11,7 @@ from io import BytesIO
 import pandas as pd
 
 openai.api_key = st.secrets["API_KEY"]
-st.set_page_config(page_title="🌀 Week Whiz - FP")
+st.set_page_config(page_title="🌀 Week Whiz")
 
 def generate_news(selected_date):
     prompt = f"What happened on {selected_date}?\nGive me a good news with a 😄, a neutral news with a 😐, and a bad news with a 😔. Do not mention good, neutral or bad news, just use the icons. Do not repeat the selected date in the answer. Insert related Wikipedia links."
