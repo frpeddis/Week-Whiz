@@ -4,7 +4,7 @@ import streamlit as st
 
 
 
-st.set_page_config(page_title="🌀 Guess the weekday! - by FP")
+st.set_page_config(page_title="🌀 Guess the weekday!")
 
 st.write("↖️ Your Calendar Challenge on the upper left sidebar")
 
