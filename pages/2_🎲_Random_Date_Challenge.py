@@ -239,5 +239,5 @@ if display_time_taken:
 
     if st.button("In that period..."):
             news_summary = generate_news(selected_date)
-            st.header("Mind the hallucinations, but according to ChatGPT in that period... ")
+            st.header("Beware of hallucinations, but according to chatgpt at that time...")
             st.write(news_summary)
