@@ -56,9 +56,9 @@ if show_images:
 
 #levo la suddivisione in colonne
 # Get user input for year, month, and day
-selected_year = st.number_input("Select Year:", min_value=1582, max_value=2099, value=2023)
-selected_month = st.number_input("Select Month:", min_value=1, max_value=12, value=8)
-selected_day = st.number_input("Select Day:", min_value=1, max_value=31, value=25)
+selected_year = st.number_input("Select Year: ", min_value=1582, max_value=2099, value=2023)
+selected_month = st.number_input("Select Month: ", min_value=1, max_value=12, value=8)
+selected_day = st.number_input("Select Day: ", min_value=1, max_value=31, value=25)
 
 
 
