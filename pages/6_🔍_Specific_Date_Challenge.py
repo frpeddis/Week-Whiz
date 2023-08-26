@@ -117,8 +117,9 @@ if check_button and not invalid_date:
         #st.write(news_summary)
     else:
         #st.error(day_of_week + " ...sorry for that!!!")
-        st.error(day_of_week + " is the right day! :coffee: That's why...")
         com.iframe("https://lottie.host/?file=380d3ff9-0c30-4a96-b25b-7eeb8868bfeb/vnvhMZFQ8j.json")
+        st.error(day_of_week + " is the right day! :coffee: That's why...")
+        
         #st.snow()
         #value = "**" + selected_date + "**"
         #selected_date = st.session_state.random_date
