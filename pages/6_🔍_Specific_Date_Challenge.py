@@ -192,7 +192,7 @@ if check_button and not invalid_date:
             remainder = subtotal % 7
         
             # Display calculated string
-            time.sleep(4)
+            time.sleep(1)
             calculated_string = f"**:green[{year_last_2_digits}]** + **:green[{year_divided_by_4}]** + **:green[{century_correction_value}]** + **:green[{month_coefficient}]** + **:green[{day_of_month}]**"
             st.write(":point_right: Magic Sum: ", calculated_string, " = ", f"<span style='font-size:18px; font-weight:bold;'>{subtotal}</span>", unsafe_allow_html=True)
             
@@ -232,6 +232,7 @@ if check_button and not invalid_date:
 
             
             # Display Correspondence Table
+            time.sleep(1)
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
