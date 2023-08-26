@@ -190,7 +190,7 @@ if check_button:
             
             
             # Step 2: Take the last 2 digits of the year (continued)
-            time.sleep(3)
+            time.sleep(1)
             #st.write(year_last_2_digits, ": Last 2 digits of the year YY")
             st.write(yl2d, ": Last 2 digits of the year YY")
         
@@ -214,10 +214,12 @@ if check_button:
             
             # Step 7: Divide the subtotal by 7 and find the remainder (continued)
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
-            time.sleep(3)
+            time.sleep(2)
             #st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
             st.write("Now **divide the Magic Sum by 7**. You don't have to worry about the result, you don't need it!")
+            time.sleep(1)
             st.write("Just look at the **remainder** of the division (a number between 0 and 6) ")
+            time.sleep(1)
             st.write("**Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
             st.subheader("🙌 We did it !!!")
             
@@ -241,7 +243,7 @@ if check_button:
             
             
             # Display Century Correction Table
-            time.sleep(3)
+            time.sleep(1)
             st.write("Century Correction")
             century_correction_table = {
                 "Century": [1500, 1600, 1700, 1800, 1900, 2000],
@@ -260,7 +262,7 @@ if check_button:
         
             
             # Display Month Coefficient Table (continued)
-            time.sleep(3)
+            time.sleep(1)
             st.write("Month Coefficient")
             month_coefficients = {
                 "January": 1 if not (selected_date.year % 4 == 0 and selected_date.month <= 2) else 0,
