@@ -192,6 +192,7 @@ if check_button and not invalid_date:
             remainder = subtotal % 7
         
             # Display calculated string
+            time.sleep(4)
             calculated_string = f"**:green[{year_last_2_digits}]** + **:green[{year_divided_by_4}]** + **:green[{century_correction_value}]** + **:green[{month_coefficient}]** + **:green[{day_of_month}]**"
             st.write(":point_right: Magic Sum: ", calculated_string, " = ", f"<span style='font-size:18px; font-weight:bold;'>{subtotal}</span>", unsafe_allow_html=True)
             
@@ -201,21 +202,27 @@ if check_button and not invalid_date:
             #st.write("Magic Sum: ", calculated_string, " = ", subtotal)
             
             # Step 2: Take the last 2 digits of the year (continued)
+            time.sleep(4)
             st.write(year_last_2_digits, ": Last 2 digits of the year YY")
         
             # Step 3: Divide the year number by 4 and add it (continued)
+            time.sleep(4)
             st.write(year_divided_by_4, ": Last 2 digit of the year YY/4 (only integer part!)")
             
             # Step 4: Add the "Century Correction" (continued)
+            time.sleep(4)
             st.write(century_correction_value, ": Correction for century ", century, " (little table below)")
           
             # Step 5: Add the "Month Coefficient" (continued)
+            time.sleep(4)
             st.write(month_coefficient, ": Month Coefficient for ", month, " (little table below)")
         
             # Step 6: Add the day of the month (continued)
+            time.sleep(4)
             st.write(day_of_month, ": Day of the month")
             
             # Step 7: Divide the subtotal by 7 and find the remainder (continued)
+            time.sleep(4)
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
             st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
 
