@@ -111,6 +111,22 @@ if check_button:
         if selected_date:
             description2 = "Focus on "
             st.markdown(f"{description2} {value}")
+
+            time.sleep(1)
+        
+        if selected_date:
+            #description2 = "Focus on "
+            #st.markdown(f"{description2} {value}")
+            st.markdown("Focus on")
+
+
+            text = value
+            
+            
+            t = st.empty()
+            for i in range(len(text) + 1):
+                t.markdown("## %s" % text[0:i])
+                time.sleep(0.2)
            
 
             # Step 2: Take the last 2 digits of the year
