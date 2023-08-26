@@ -241,9 +241,10 @@ if check_button and not invalid_date:
             # Step 7: Divide the subtotal by 7 and find the remainder (continued)
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
             time.sleep(3)
-            #st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
-            st.write("🙌 **Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
-           
+            st.write("Now **divide the Magic Sum by 7**. You don't have to worry about the result, you don't need it!")
+            st.write("Just look at the **remainder** of the division (a number between 0 and 6) ")
+            st.write("**Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
+            st.subheader("🙌 We did it !!!")           
             
             # Display Correspondence Table
             time.sleep(3)
