@@ -197,7 +197,7 @@ if check_button:
             # Step 3: Divide the year number by 4 and add it (continued)
             time.sleep(3)
             #st.write(year_divided_by_4, ": Last 2 digit of the year YY/4 (only integer part!)")
-            st.write(ydb4, ": Last 2 digit of the year divided by 4 (YY/4 only integer part!)")            
+            st.write(ydb4, ": Year divided by 4 (YY/4 only integer part!)")            
             # Step 4: Add the "Century Correction" (continued)
             time.sleep(3)
             #st.write(century_correction_value, ": Correction for century ", century, " (little table below)")
