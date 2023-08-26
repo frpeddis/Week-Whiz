@@ -108,9 +108,9 @@ if check_button:
                 # Step 1: User selects a date
         selected_date = st.session_state.random_date
         
-        #if selected_date:
-        #    description2 = "Focus on "
-        #    st.markdown(f"{description2} {value}")
+        if selected_date:
+            description2 = "Focus on "
+            st.markdown(f"{description2} {value}")
 
             time.sleep(1)
         
