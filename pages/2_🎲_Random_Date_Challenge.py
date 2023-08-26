@@ -166,7 +166,7 @@ if check_button:
             # Step 7: Divide the subtotal by 7 and find the remainder
             remainder = subtotal % 7
         
-               yl2d = f"**:green[{year_last_2_digits}]**"
+            yl2d = f"**:green[{year_last_2_digits}]**"
             ydb4 = f"**:green[{year_divided_by_4}]**"
             ccv = f"**:green[{century_correction_value}]**"
             mcv = f"**:green[{month_coefficient}]**"
