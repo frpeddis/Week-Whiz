@@ -128,7 +128,7 @@ if check_button and not invalid_date:
             value = "**" + selected_date.strftime('%d-%b-%Y') + "**"
 
             description2 = "Focus on "
-            st.markdown(f"{description2} {value}")   
+            #st.markdown(f"{description2} {value}")   
 
             #if selected_date:
             #    description2 = "Focus on "
