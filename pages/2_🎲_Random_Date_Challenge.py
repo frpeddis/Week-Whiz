@@ -224,7 +224,7 @@ if check_button:
             st.subheader("🙌 We did it !!!")
             
             # Display Correspondence Table
-            time.sleep(3)
+            time.sleep(2)
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
@@ -243,7 +243,6 @@ if check_button:
             
             
             # Display Century Correction Table
-            time.sleep(1)
             st.write("Century Correction")
             century_correction_table = {
                 "Century": [1500, 1600, 1700, 1800, 1900, 2000],
@@ -262,7 +261,7 @@ if check_button:
         
             
             # Display Month Coefficient Table (continued)
-            time.sleep(1)
+            
             st.write("Month Coefficient")
             month_coefficients = {
                 "January": 1 if not (selected_date.year % 4 == 0 and selected_date.month <= 2) else 0,
