@@ -249,7 +249,7 @@ if check_button and not invalid_date:
             st.subheader("🙌 We did it !!!")           
             
             # Display Correspondence Table
-            time.sleep(2)
+            
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
@@ -268,7 +268,7 @@ if check_button and not invalid_date:
             
             
             # Display Century Correction Table
-            
+            time.sleep(1)
             st.write("Century Correction")
             century_correction_table = {
                 "Century": [1500, 1600, 1700, 1800, 1900, 2000],
