@@ -210,7 +210,7 @@ if check_button and not invalid_date:
             st.write(year_divided_by_4, ": Last 2 digit of the year YY/4 (only integer part!)")
             
             # Step 4: Add the "Century Correction" (continued)
-            time.sleep(4)
+            time.sleep(6)
             st.write(century_correction_value, ": Correction for century ", century, " (little table below)")
           
             # Step 5: Add the "Month Coefficient" (continued)
@@ -232,7 +232,7 @@ if check_button and not invalid_date:
 
             
             # Display Correspondence Table
-            time.sleep(1)
+            time.sleep(4)
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
