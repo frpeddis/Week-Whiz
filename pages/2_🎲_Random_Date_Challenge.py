@@ -255,8 +255,8 @@ if check_button:
 
     # Calculate time taken to make the selection
     st.session_state.time_taken = (datetime.now() - st.session_state.start_time).total_seconds()
-    time_taken = st.session_state.time_taken
-    display_time_taken = True
+    #time_taken = st.session_state.time_taken
+    #display_time_taken = True
 
 # Show the amount of seconds taken
 if display_time_taken:
