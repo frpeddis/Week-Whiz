@@ -223,7 +223,7 @@ if check_button and not invalid_date:
             # Step 3: Divide the year number by 4 and add it (continued)
             time.sleep(3)
             #st.write(year_divided_by_4, ": Last 2 digit of the year YY/4 (only integer part!)")
-            st.write(ydb4, ": Last 2 digit of the year divided by 4 (YY/4 only integer part!)")            
+            st.write(ydb4, ": Year divided by 4 (YY/4 only integer part!)")            
             # Step 4: Add the "Century Correction" (continued)
             time.sleep(3)
             #st.write(century_correction_value, ": Correction for century ", century, " (little table below)")
@@ -242,7 +242,7 @@ if check_button and not invalid_date:
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
             time.sleep(3)
             #st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
-            st.write("🙌 **Remainder** after dividing the **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
+            st.write("🙌 **Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
            
             
             # Display Correspondence Table
