@@ -216,7 +216,6 @@ if check_button:
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
             time.sleep(3)
             #st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
-            st.write("Now divide the Magic Sum by 7. You don't care about the result, just look at the remainder of the division (a number between 0 and 6) ")
             st.write("**Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
             st.header("🙌")
             
