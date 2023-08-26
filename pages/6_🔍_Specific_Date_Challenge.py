@@ -242,14 +242,14 @@ if check_button and not invalid_date:
             #st.write(":point_right: Remainder after dividing ", subtotal, "  by 7:", remainder)
             time.sleep(2)
             st.write("Now **divide the Magic Sum by 7**. You don't have to worry about the result, you don't need it!")
-            time.sleep(1)
+            time.sleep(2)
             st.write("Just look at the **remainder** of the division (a number between 0 and 6) ")
-            time.sleep(1)
+            time.sleep(2)
             st.write("**Remainder** after dividing **Magic Sum** ", sbt, "  / **7** :point_right:", f"<span style='font-size:23px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
             st.subheader("🙌 We did it !!!")           
             
             # Display Correspondence Table
-            time.sleep(3)
+            time.sleep(2)
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
@@ -268,7 +268,7 @@ if check_button and not invalid_date:
             
             
             # Display Century Correction Table
-            time.sleep(3)
+            
             st.write("Century Correction")
             century_correction_table = {
                 "Century": [1500, 1600, 1700, 1800, 1900, 2000],
@@ -287,7 +287,7 @@ if check_button and not invalid_date:
         
             
             # Display Month Coefficient Table (continued)
-            time.sleep(3)
+            
             st.write("Month Coefficient")
             month_coefficients = {
                 "January": 1 if not (selected_date.year % 4 == 0 and selected_date.month <= 2) else 0,
