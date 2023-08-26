@@ -200,7 +200,7 @@ if check_button:
             st.write(":point_right: Remainder after dividing the Magic Sum ", subtotal, "  by 7 ---> ", f"<span style='font-size:18px; font-weight:bold;'>{remainder}</span>", unsafe_allow_html=True)
             
             # Display Correspondence Table
-            time.sleep(1)
+            time.sleep(4)
             #st.write("Correspondence between Remainders and Days of the Week Table:")
             correspondence_table = {
                 "Remainder": list(range(7)),
